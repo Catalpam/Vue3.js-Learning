@@ -1,24 +1,26 @@
 <template>
-  <img src="./assets/logo.png">
+  <img src="./assets/my_icon.jpg">
   <div>
     <p>
-      If Element Plus is successfully added to this project, you'll see an
-      <code v-text="'<el-button>'"></code>
-      below
+      欢迎来到我的小站，本小站使用
+      <code v-text="'Vue3+Element-Plus'"></code>
+      部署前端。
     </p>
-    <el-button type="primary">el-button</el-button>
+    <el-button type="primary" >这是一个element组件</el-button>
+    <p>
+      话说element默认的这个hotpink好猛男呀
+    </p>
+    <p>
+      apis:
+      <a href="https://api.fengzigeng.com">https://api.fengzigeng.com</a>
+    </p>
   </div>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
