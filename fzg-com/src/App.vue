@@ -12,7 +12,7 @@
     </p>
     <p>
       apis:
-      <a href="https://api.fengzigeng.com">https://api.fengzigeng.com</a>
+      <a href="https://www.fengzigeng.com/api">https://www.fengzigeng.com/api</a>
     </p>
   </div>
 </template>
